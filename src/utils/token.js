@@ -1,16 +1,13 @@
-import {getAuthToken} from "./cookies";
-
-export async function getToken(req) {
+export async function getToken() {
 	try {
-		let token = getAuthToken(req);
-		if (!token) {
-			const response = await fetch(process.env.API_URL + "/auth/login", {
-				method: "POST"
-			});
+		let token;
 
-			const data = await response.json();
-			token = data.authToken;
-		}
+		const response = await fetch(process.env.API_URL + "/auth/login", {
+			method: "POST"
+		});
+
+		const data = await response.json();
+		token = data.authToken;
 
 		return token;
 	} catch (error) {

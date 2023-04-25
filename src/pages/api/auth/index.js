@@ -1,5 +1,3 @@
-import {setAuthCookie} from "@/utils/cookies";
-
 export default async function handler(req, res) {
 	if (req.method === "POST") {
 		try {
@@ -19,8 +17,7 @@ export default async function handler(req, res) {
 			const data = await response.json();
 
 			if (data.status === "success") {
-				setAuthCookie(res, data.data.token);
-				res.status(200);
+				res.status(200).json({msg: "Usuario creado exitosamente."});
 			} else {
 				throw new Error(data.message);
 			}
