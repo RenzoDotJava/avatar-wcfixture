@@ -2,7 +2,6 @@
 
 Este proyecto tiene como próposito principal mostrar el fixture de la fase de grupos de la Copa del Mundo Qatar 2022. Dentro de este fixture se podrán visualizar los grupos, los equipos que conforman cada grupo y el resultado de cada encuentro.
 
-
 ## Iniciar Proyecto
 
 Para iniciar el proyecto:
@@ -14,11 +13,10 @@ npm run dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) en su navegador para ver el resultado.
+
 ## Tech Stack
 
 **Stack:** React, NextJS, TailwindCSS
-
-
 
 ## Información de la APIS
 
@@ -46,8 +44,9 @@ Para caso práctico de este proyecto se usa este API para obtener el token. Los 
 - Agregar la funcionalidad de registro e iniciar sesión
 - Mejorar el layout y grid en el cual se presentan los grupos
 - Mejorar el responsive
-- Aprovechar las todas las APIS que provee el servicio [raminmr/free-api-worldcup2022](https://github.com/raminmr/free-api-worldcup2022), para asi agregar mas detalle de cada equipo.
+- Aprovechar todas las APIS que provee el servicio [raminmr/free-api-worldcup2022](https://github.com/raminmr/free-api-worldcup2022), para asi agregar mas detalle de cada equipo.
 - Crear un layout para los resultados de los encuentro directos.
+
 ## World Cup 2022 API
 
 [https://github.com/raminmr/free-api-worldcup2022](https://github.com/raminmr/free-api-worldcup2022)
