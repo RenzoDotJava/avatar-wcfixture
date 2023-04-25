@@ -46,6 +46,8 @@ Para caso práctico de este proyecto se usa este API para obtener el token. Los 
 - Mejorar el responsive
 - Aprovechar todas las APIS que provee el servicio [raminmr/free-api-worldcup2022](https://github.com/raminmr/free-api-worldcup2022), para asi agregar mas detalle de cada equipo.
 - Crear un layout para los resultados de los encuentro directos.
+- Guardar el token de autentificación en los cookies o en el localStorage.
+- Realizar tests para asegurar que la información se está mostrando correctamente.
 
 ## World Cup 2022 API
 
